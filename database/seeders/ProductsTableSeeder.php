@@ -87,16 +87,16 @@ class ProductsTableSeeder extends Seeder
             'preview' => 'photo_2022-06-17_18-20-20.jpg',
             'media_folder' => '0007Sofia',
         ]);
-        Product::updateOrCreate([
-            'name' => 'Si',
-            'description' => 'description',
-            'price' => 100,
-            'size' => 'S,L,XL,XXL',
-            'color' => 'black,white',
-            'images' => 'photo (21 of 50).jpg,photo (23 of 50).jpg,photo (25 of 50).jpg',
-            'preview' => 'photo (21 of 50).jpg',
-            'media_folder' => '3003Si',
-        ]);
+//        Product::updateOrCreate([
+//            'name' => 'Si',
+//            'description' => 'description',
+//            'price' => 100,
+//            'size' => 'S,L,XL,XXL',
+//            'color' => 'black,white',
+//            'images' => 'photo (21 of 50).jpg,photo (23 of 50).jpg,photo (25 of 50).jpg',
+//            'preview' => 'photo (21 of 50).jpg',
+//            'media_folder' => '3003Si',
+//        ]);
         Product::updateOrCreate([
             'name' => 'Vikie',
             'description' => 'description',
@@ -149,45 +149,45 @@ class ProductsTableSeeder extends Seeder
             'preview' => 'IMG_0795_Facetune_06-02-2022-18-55-28.jpeg',
             'media_folder' => '3307Valentine',
         ]);
-        Product::updateOrCreate([
-            'name' => 'Amore',
-            'description' => 'description',
-            'price' => 100,
-            'size' => 'S,L,XL,XXL',
-            'color' => 'black,white',
-            'images' => 'photo (11 of 50).jpg,photo (12 of 50).jpg,photo (13 of 50).jpg,photo (14 of 50).jpg,photo (15 of 50).jpg',
-            'preview' => 'photo (11 of 50).jpg',
-            'media_folder' => '7001Amore',
-        ]);
-        Product::updateOrCreate([
-            'name' => 'Emerald',
-            'description' => 'description',
-            'price' => 100,
-            'size' => 'S,L,XL,XXL',
-            'color' => 'black,white',
-            'images' => 'photo (38 of 50).jpg,photo (39 of 50).jpg,photo (40 of 50).jpg',
-            'preview' => 'photo (38 of 50).jpg',
-            'media_folder' => '7003Emerald',
-        ]);
-        Product::updateOrCreate([
-            'name' => 'Pearl',
-            'description' => 'description',
-            'price' => 100,
-            'size' => 'S,L,XL,XXL',
-            'color' => 'black,white',
-            'images' => 'DSC08224 копия.jpg,DSC08291 копия.jpg,DSC08301 копия.jpg,DSC08319 копия.jpg,photo (26 of 50).jpg,photo (27 of 50).jpg,photo (28 of 50).jpg,photo (29 of 50).jpg,photo (30 of 50).jpg',
-            'preview' => 'DSC08224 копия.jpg',
-            'media_folder' => '7004Pearl',
-        ]);
-        Product::updateOrCreate([
-            'name' => 'Night',
-            'description' => 'description',
-            'price' => 100,
-            'size' => 'S,L,XL,XXL',
-            'color' => 'black,white',
-            'images' => 'DSC07304 копия.jpg,DSC07313 копия.jpg,DSC07326 копия.jpg,DSC07357 копия.jpg,DSC07398 копия.jpg',
-            'preview' => 'DSC07304 копия.jpg',
-            'media_folder' => '8009Night',
-        ]);
+//        Product::updateOrCreate([
+//            'name' => 'Amore',
+//            'description' => 'description',
+//            'price' => 100,
+//            'size' => 'S,L,XL,XXL',
+//            'color' => 'black,white',
+//            'images' => 'photo (11 of 50).jpg,photo (12 of 50).jpg,photo (13 of 50).jpg,photo (14 of 50).jpg,photo (15 of 50).jpg',
+//            'preview' => 'photo (11 of 50).jpg',
+//            'media_folder' => '7001Amore',
+//        ]);
+//        Product::updateOrCreate([
+//            'name' => 'Emerald',
+//            'description' => 'description',
+//            'price' => 100,
+//            'size' => 'S,L,XL,XXL',
+//            'color' => 'black,white',
+//            'images' => 'photo (38 of 50).jpg,photo (39 of 50).jpg,photo (40 of 50).jpg',
+//            'preview' => 'photo (38 of 50).jpg',
+//            'media_folder' => '7003Emerald',
+//        ]);
+//        Product::updateOrCreate([
+//            'name' => 'Pearl',
+//            'description' => 'description',
+//            'price' => 100,
+//            'size' => 'S,L,XL,XXL',
+//            'color' => 'black,white',
+//            'images' => 'DSC08224 копия.jpg,DSC08291 копия.jpg,DSC08301 копия.jpg,DSC08319 копия.jpg,photo (26 of 50).jpg,photo (27 of 50).jpg,photo (28 of 50).jpg,photo (29 of 50).jpg,photo (30 of 50).jpg',
+//            'preview' => 'DSC08224 копия.jpg',
+//            'media_folder' => '7004Pearl',
+//        ]);
+//        Product::updateOrCreate([
+//            'name' => 'Night',
+//            'description' => 'description',
+//            'price' => 100,
+//            'size' => 'S,L,XL,XXL',
+//            'color' => 'black,white',
+//            'images' => 'DSC07304 копия.jpg,DSC07313 копия.jpg,DSC07326 копия.jpg,DSC07357 копия.jpg,DSC07398 копия.jpg',
+//            'preview' => 'DSC07304 копия.jpg',
+//            'media_folder' => '8009Night',
+//        ]);
     }
 }
