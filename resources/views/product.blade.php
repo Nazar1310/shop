@@ -83,11 +83,7 @@
                                 </div>
                             </div>
                             <div class="product__details__cart__option">
-                                <div class="quantity">
-                                    <div class="pro-qty">
-                                        <input class="selectCount" type="text" value="1">
-                                    </div>
-                                </div>
+                                <input class="selectCount quantity-input" type="number" value="1">
                                 <a class="primary-btn js-show-modal" id="add-to-cart" data-modal="modal-2">add to cart</a>
                             </div>
                         </div>

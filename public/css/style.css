@@ -1770,6 +1770,17 @@ ol {
 	text-align: center;
 	border: none;
 }
+.quantity-input {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    color: #0d0d0d;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 20px;
+}
 
 .product__details__cart__option .quantity .pro-qty .qtybtn {
 	font-size: 18px;

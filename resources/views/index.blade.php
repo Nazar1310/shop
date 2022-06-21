@@ -92,31 +92,33 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 offset-lg-1">
-                    <div class="categories__deal__countdown">
-                        <span>Deal Of The Week</span>
-                        <h2>{{$product->name}}</h2>
-                        <div class="categories__deal__countdown__timer" id="countdown">
-                            <div class="cd-item">
-                                <span>3</span>
-                                <p>Days</p>
+                @if($product)
+                    <div class="col-lg-4 offset-lg-1">
+                        <div class="categories__deal__countdown">
+                            <span>Deal Of The Week</span>
+                            <h2>{{$product->name}}</h2>
+                            <div class="categories__deal__countdown__timer" id="countdown">
+                                <div class="cd-item">
+                                    <span>3</span>
+                                    <p>Days</p>
+                                </div>
+                                <div class="cd-item">
+                                    <span>1</span>
+                                    <p>Hours</p>
+                                </div>
+                                <div class="cd-item">
+                                    <span>50</span>
+                                    <p>Minutes</p>
+                                </div>
+                                <div class="cd-item">
+                                    <span>18</span>
+                                    <p>Seconds</p>
+                                </div>
                             </div>
-                            <div class="cd-item">
-                                <span>1</span>
-                                <p>Hours</p>
-                            </div>
-                            <div class="cd-item">
-                                <span>50</span>
-                                <p>Minutes</p>
-                            </div>
-                            <div class="cd-item">
-                                <span>18</span>
-                                <p>Seconds</p>
-                            </div>
+                            <a href="{{route('product',$product->id)}}" class="primary-btn">Buy now</a>
                         </div>
-                        <a href="{{route('product',$product->id)}}" class="primary-btn">Buy now</a>
                     </div>
-                </div>
+                @endif
             </div>
         </div>
     </section>
