@@ -25,7 +25,6 @@ class ProductsTableSeeder extends Seeder
             'preview' => 'photo_2022-06-17_18-10-08.jpg',
             'media_folder' => '0001Aura',
         ]);
-        return;
         Product::updateOrCreate([
             'name' => 'Lazy Girl',
             'description' => 'description',
