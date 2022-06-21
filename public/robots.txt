@@ -1,0 +1,7 @@
+User-agent: *
+
+Allow: /$
+Allow: /en$
+Disallow: /
+
+Host: https://online-tetris.ru
