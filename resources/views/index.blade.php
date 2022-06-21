@@ -72,27 +72,24 @@
             </div>
         </div>
     </section>
-    <!-- Product Section End -->
-
-    <!-- Categories Section Begin -->
-    <section class="categories spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="categories__text">
-                        <h2>Clothings Hot <br /> <span>Shoe Collection</span> <br /> Accessories</h2>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="categories__hot__deal">
-                        <img src="/img/products/{{$product->media_folder}}/{{$product->preview}}" alt="">
-                        <div class="hot__deal__sticker">
-                            <span>Sale Of</span>
-                            <h5>${{$product->price}}</h5>
+    @if($product)
+        <section class="categories spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="categories__text">
+                            <h2>Clothings Hot <br /> <span>Shoe Collection</span> <br /> Accessories</h2>
                         </div>
                     </div>
-                </div>
-                @if($product)
+                    <div class="col-lg-4">
+                        <div class="categories__hot__deal">
+                            <img src="/img/products/{{$product->media_folder}}/{{$product->preview}}" alt="">
+                            <div class="hot__deal__sticker">
+                                <span>Sale Of</span>
+                                <h5>${{$product->price}}</h5>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-4 offset-lg-1">
                         <div class="categories__deal__countdown">
                             <span>Deal Of The Week</span>
@@ -118,10 +115,10 @@
                             <a href="{{route('product',$product->id)}}" class="primary-btn">Buy now</a>
                         </div>
                     </div>
-                @endif
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    @endif
     <section class="instagram spad">
         <div class="container">
             <div class="row">
