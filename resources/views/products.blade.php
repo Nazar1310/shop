@@ -32,7 +32,7 @@
                     </div>
                     <div class="row">
                         @foreach($products as $product)
-                            <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-6">
                                 @include('layouts.product-item',['product'=>$product])
                             </div>
                         @endforeach
