@@ -113,7 +113,7 @@ class ProductsTableSeeder extends Seeder
             'price' => 100,
             'size' => 'S,L,XL,XXL',
             'color' => 'black,white',
-            'images' => 'MNR_2738.jpg,MNR_2748.JPG,MNR_2749.JPG,MNR_2752.jpg',
+            'images' => 'MNR_2738.jpg,MNR_2748.jpg,MNR_2749.jpg,MNR_2752.jpg',
             'preview' => 'MNR_2738.jpg',
             'media_folder' => '3302Dominicana',
             'mark' => 'top',
@@ -124,7 +124,7 @@ class ProductsTableSeeder extends Seeder
             'price' => 100,
             'size' => 'S,L,XL,XXL',
             'color' => 'black,white',
-            'images' => 'MNR_2810.jpg,MNR_2814.JPG,MNR_2818.jpg,MNR_2820.jpg,MNR_2824.JPG,MNR_2825.JPG',
+            'images' => 'MNR_2810.jpg,MNR_2814.jpg,MNR_2818.jpg,MNR_2820.jpg,MNR_2824.jpg,MNR_2825.jpg',
             'preview' => 'MNR_2810.jpg',
             'media_folder' => '3303Doli',
             'mark' => 'Deal Of The Week',
@@ -135,8 +135,8 @@ class ProductsTableSeeder extends Seeder
             'price' => 100,
             'size' => 'S,L,XL,XXL',
             'color' => 'black,white',
-            'images' => 'IMG_0277.JPG,IMG_0278.JPG,IMG_0279.JPG,IMG_0280.JPG',
-            'preview' => 'IMG_0277.JPG',
+            'images' => 'IMG_0277.jpg,IMG_0278.jpg,IMG_0279.jpg,IMG_0280.jpg',
+            'preview' => 'IMG_0277.jpg',
             'media_folder' => '3305Rosy',
         ]);
         Product::updateOrCreate([
