@@ -83,7 +83,7 @@
                                 </div>
                             </div>
                             <div class="product__details__cart__option">
-                                <input class="selectCount quantity-input" type="number" value="1">
+                                <input class="selectCount quantity-input" type="number" value="1" />
                                 <a class="primary-btn js-show-modal" id="add-to-cart" data-modal="modal-2">add to cart</a>
                             </div>
                         </div>
@@ -136,11 +136,11 @@
             const product = {!! json_encode($product) !!};
             const size = $(".selectSize:checked").val();
             const color = $(".selectColor:checked").val();
-            const count = $(".selectCount").val();
+            const count = parseInt($(".selectCount").val());
             let cart = sessionStorage.getItem('cart');
             cart = cart?JSON.parse(cart):[];
             cart = cart.filter(item => item.product.id !== product.id);
-            cart.push({product, size, color, count});
+            cart.push({product, size, color, count:count?count:1});
             setInfoForCart(cart);
             sessionStorage.setItem('cart', JSON.stringify(cart));
         })
