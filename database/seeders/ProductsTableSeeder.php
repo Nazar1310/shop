@@ -103,8 +103,8 @@ class ProductsTableSeeder extends Seeder
             'price' => 100,
             'size' => 'S,L,XL,XXL',
             'color' => 'black,white',
-            'images' => 'IMG_0271.JPG,MNR_2658.JPG,MNR_2664.jpg,MNR_2665.JPG',
-            'preview' => 'IMG_0271.JPG',
+            'images' => 'IMG_0271.jpg,MNR_2658.jpg,MNR_2664.jpg,MNR_2665.jpg',
+            'preview' => 'IMG_0271.jpg',
             'media_folder' => '3301Vikie',
         ]);
         Product::updateOrCreate([
