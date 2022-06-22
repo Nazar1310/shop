@@ -97,16 +97,16 @@ class ProductsTableSeeder extends Seeder
 //            'preview' => 'photo (21 of 50).jpg',
 //            'media_folder' => '3003Si',
 //        ]);
-        Product::updateOrCreate([
-            'name' => 'Vikie',
-            'description' => 'description',
-            'price' => 100,
-            'size' => 'S,L,XL,XXL',
-            'color' => 'black,white',
-            'images' => 'MNR_2658.jpg,MNR_2664.jpg,MNR_2665.jpg',
-            'preview' => 'MNR_2658.jpg',
-            'media_folder' => '3301Vikie',
-        ]);
+//        Product::updateOrCreate([
+//            'name' => 'Vikie',
+//            'description' => 'description',
+//            'price' => 100,
+//            'size' => 'S,L,XL,XXL',
+//            'color' => 'black,white',
+//            'images' => 'MNR_2658.jpg,MNR_2664.jpg,MNR_2665.jpg',
+//            'preview' => 'MNR_2658.jpg',
+//            'media_folder' => '3301Vikie',
+//        ]);
         Product::updateOrCreate([
             'name' => 'Dominicana',
             'description' => 'description',
