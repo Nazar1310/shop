@@ -67,7 +67,7 @@
                             <div class="product__details__option">
                                 <div class="product__details__option__size">
                                     <span>Size:</span>
-                                    @foreach(explode(',',$product->size) as $size)
+                                    @foreach(explode(',',$product->size_bottom) as $size)
                                         <label for="{{$size}}">{{$size}}
                                             <input class="selectSize" type="radio" value="{{$size}}" id="{{$size}}">
                                         </label>

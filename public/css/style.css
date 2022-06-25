@@ -1708,26 +1708,34 @@ ol {
 .product__details__option__color label.active {
     border: #e53637 solid 2px;
 }
-.product__item__text .product__color__select label.black,
-.product__details__option__color label.black {
-	background: #0b090c;
-}
-.product__item__text .product__color__select label.blue,
-.product__details__option__color label.blue {
-	background: #20315f;
-}
-.product__item__text .product__color__select label.yellow,
-.product__details__option__color label.yellow {
-	background: #f1af4d;
-}
-.product__item__text .product__color__select label.red,
-.product__details__option__color label.red {
-	background: #ed1c24;
-}
-.product__item__text .product__color__select label.white,
-.product__details__option__color label.white {
-	background: #d9d9d9;
-}
+.product__item__text .product__color__select label.beige, .product__details__option__color label.beige {
+	background: beige; /*beige*/}
+.product__item__text .product__color__select label.powder, .product__details__option__color label.powder {
+	background: #c17ade; /*beige*/}
+.product__item__text .product__color__select label.black, .product__details__option__color label.black {
+	background: #0b090c; /*beige*/}
+.product__item__text .product__color__select label.blue, .product__details__option__color label.blue {
+	background: #20315f; /*beige*/}
+.product__item__text .product__color__select label.yellow, .product__details__option__color label.yellow {
+	background: #f1af4d; /*beige*/}
+.product__item__text .product__color__select label.red, .product__details__option__color label.red {
+	background: #ed1c24; /*beige*/}
+.product__item__text .product__color__select label.white, .product__details__option__color label.white {
+	background: #d9d9d9; /*beige*/}
+.product__item__text .product__color__select label.lactic, .product__details__option__color label.lactic {
+	background: #859685; /*beige*/}
+.product__item__text .product__color__select label.pink, .product__details__option__color label.pink {
+	background: pink; /*beige*/}
+.product__item__text .product__color__select label.purple, .product__details__option__color label.purple {
+	background: purple; /*beige*/}
+.product__item__text .product__color__select label.green, .product__details__option__color label.green {
+	background: green; /*beige*/}
+.product__item__text .product__color__select label.orange, .product__details__option__color label.orange {
+	background: orange; /*beige*/}
+.product__item__text .product__color__select label.lemon, .product__details__option__color label.lemon {
+	background: #fff200; /*beige*/}
+.product__item__text .product__color__select label.emerald, .product__details__option__color label.emerald {
+	background: #219148; /*beige*/}
 
 .product__details__option__color label:after {
 	position: absolute;

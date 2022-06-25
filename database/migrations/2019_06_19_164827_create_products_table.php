@@ -18,7 +18,9 @@ class CreateProductsTable extends Migration
             $table->string('name');
             $table->text('description');
             $table->string('color');
-            $table->string('size');
+            $table->string('size_bottom');
+            $table->string('size_bra');
+            $table->string('size_cup');
             $table->integer('price');
             $table->text('images');
             $table->string('preview');
