@@ -2,216 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6ac4ae8-2d82-4084-91a3-2de08f74599a" name="Default Changelist" comment="fix">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0001-Aura/photo_2022-06-17_18-10-08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0001-Aura/photo_2022-06-17_18-15-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0001-Aura/photo_2022-06-17_18-15-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0001-Aura/photo_2022-06-17_18-15-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0001-Aura/photo_2022-06-17_18-15-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0001-Aura/photo_2022-06-17_18-15-17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0001-Aura/photo_2022-06-17_18-15-19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0002-LazyGirl/photo_2022-06-17_18-16-18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0002-LazyGirl/photo_2022-06-17_18-16-20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0002-LazyGirl/photo_2022-06-17_18-16-22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0002-LazyGirl/photo_2022-06-17_18-16-24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0002-LazyGirl/photo_2022-06-17_18-16-25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0002-LazyGirl/photo_2022-06-17_18-16-27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0002-LazyGirl/photo_2022-06-17_18-16-30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0002-LazyGirl/photo_2022-06-17_18-16-31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0002-LazyGirl/photo_2022-06-17_18-16-33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0003-Elena/photo_2022-06-17_18-17-29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0003-Elena/photo_2022-06-17_18-17-30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0003-Elena/photo_2022-06-17_18-17-32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0003-Elena/photo_2022-06-17_18-17-34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0003-Elena/photo_2022-06-17_18-17-38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0003-Elena/photo_2022-06-17_18-17-41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0004-Jakie/photo_2022-06-17_18-18-19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0004-Jakie/photo_2022-06-17_18-18-20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0004-Jakie/photo_2022-06-17_18-18-22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0004-Jakie/photo_2022-06-17_18-18-24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0004-Jakie/photo_2022-06-17_18-18-25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0004-Jakie/photo_2022-06-17_18-18-27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0004-Jakie/photo_2022-06-17_18-18-30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0004-Jakie/photo_2022-06-17_18-18-31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0005-Mystic/photo_2022-06-17_18-19-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0005-Mystic/photo_2022-06-17_18-19-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0005-Mystic/photo_2022-06-17_18-19-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0005-Mystic/photo_2022-06-17_18-19-08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0005-Mystic/photo_2022-06-17_18-19-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0005-Mystic/photo_2022-06-17_18-19-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0005-Mystic/photo_2022-06-17_18-19-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0006-Eva/photo_2022-06-17_18-19-47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0006-Eva/photo_2022-06-17_18-19-48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0006-Eva/photo_2022-06-17_18-19-50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0006-Eva/photo_2022-06-17_18-19-52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0006-Eva/photo_2022-06-17_18-19-54.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0007-Sofia/photo_2022-06-17_18-20-20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0007-Sofia/photo_2022-06-17_18-20-22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0007-Sofia/photo_2022-06-17_18-20-24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0007-Sofia/photo_2022-06-17_18-20-25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0007-Sofia/photo_2022-06-17_18-20-27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0007-Sofia/photo_2022-06-17_18-20-28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0007-Sofia/photo_2022-06-17_18-20-30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0007-Sofia/photo_2022-06-17_18-20-32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0007-Sofia/photo_2022-06-17_18-20-33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/0007-Sofia/photo_2022-06-17_18-20-35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3003-Si/photo21of50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3003-Si/photo23of50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3003-Si/photo25of50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3301-Vikie/IMG_0271.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3301-Vikie/MNR_2658.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3301-Vikie/MNR_2664.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3301-Vikie/MNR_2665.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3302-Dominicana/MNR_2738.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3302-Dominicana/MNR_2748.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3302-Dominicana/MNR_2749.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3302-Dominicana/MNR_2752.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3303-Doli/MNR_2810.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3303-Doli/MNR_2814.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3303-Doli/MNR_2818.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3303-Doli/MNR_2820.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3303-Doli/MNR_2824.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3303-Doli/MNR_2825.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3305-Rosy/IMG_0277.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3305-Rosy/IMG_0278.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3305-Rosy/IMG_0279.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3305-Rosy/IMG_0280.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3307-Valentine/IMG_0795_Facetune_06-02-2022-18-55-28.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3307-Valentine/IMG_0802_Facetune_06-02-2022-18-56-43.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3307-Valentine/IMG_0817_Facetune_06-02-2022-18-56-59.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/3307-Valentine/IMG_0818_Facetune_06-02-2022-18-57-32.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7001-Amore/photo11of50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7001-Amore/photo12of50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7001-Amore/photo13of50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7001-Amore/photo14of50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7001-Amore/photo15of50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7003-Emerald/photo38of50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7003-Emerald/photo39of50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7003-Emerald/photo40of50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7004-Pearl/DSC08224.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7004-Pearl/DSC08291.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7004-Pearl/DSC08301.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7004-Pearl/DSC08319.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7004-Pearl/photo(26of50).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7004-Pearl/photo(27of50).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7004-Pearl/photo(28of50).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7004-Pearl/photo(29of50).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/7004-Pearl/photo(30of50).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/8009-Night/DSC07304.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/8009-Night/DSC07313.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/8009-Night/DSC07326.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/8009-Night/DSC07357.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/products/8009-Night/DSC07398.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_19_164827_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_06_19_164827_create_products_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/ProductsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/ProductsTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0001Aura/IMG_6976.MOV" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/products/0001-Aura/IMG_6976.MOV" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0001Aura/photo_2022-06-17_18-10-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0001Aura/photo_2022-06-17_18-15-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0001Aura/photo_2022-06-17_18-15-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0001Aura/photo_2022-06-17_18-15-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0001Aura/photo_2022-06-17_18-15-16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0001Aura/photo_2022-06-17_18-15-17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0001Aura/photo_2022-06-17_18-15-19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0002LazyGirl/IMG_3733.MP4" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/products/0002-LazyGirl/IMG_3733.MP4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0002LazyGirl/photo_2022-06-17_18-16-18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0002LazyGirl/photo_2022-06-17_18-16-20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0002LazyGirl/photo_2022-06-17_18-16-22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0002LazyGirl/photo_2022-06-17_18-16-24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0002LazyGirl/photo_2022-06-17_18-16-25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0002LazyGirl/photo_2022-06-17_18-16-27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0002LazyGirl/photo_2022-06-17_18-16-30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0002LazyGirl/photo_2022-06-17_18-16-31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0002LazyGirl/photo_2022-06-17_18-16-33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0003Elena/IMG_3737.MP4" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/products/0003-Elena/IMG_3737.MP4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0003Elena/photo_2022-06-17_18-17-29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0003Elena/photo_2022-06-17_18-17-30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0003Elena/photo_2022-06-17_18-17-32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0003Elena/photo_2022-06-17_18-17-34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0003Elena/photo_2022-06-17_18-17-38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0003Elena/photo_2022-06-17_18-17-41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0004Jakie/photo_2022-06-17_18-18-19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0004Jakie/photo_2022-06-17_18-18-20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0004Jakie/photo_2022-06-17_18-18-22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0004Jakie/photo_2022-06-17_18-18-24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0004Jakie/photo_2022-06-17_18-18-25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0004Jakie/photo_2022-06-17_18-18-27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0004Jakie/photo_2022-06-17_18-18-30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0004Jakie/photo_2022-06-17_18-18-31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0005Mystic/photo_2022-06-17_18-19-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0005Mystic/photo_2022-06-17_18-19-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0005Mystic/photo_2022-06-17_18-19-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0005Mystic/photo_2022-06-17_18-19-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0005Mystic/photo_2022-06-17_18-19-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0005Mystic/photo_2022-06-17_18-19-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0005Mystic/photo_2022-06-17_18-19-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0006Eva/photo_2022-06-17_18-19-47.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0006Eva/photo_2022-06-17_18-19-48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0006Eva/photo_2022-06-17_18-19-50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0006Eva/photo_2022-06-17_18-19-52.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0006Eva/photo_2022-06-17_18-19-54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0007Sofia/photo_2022-06-17_18-20-20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0007Sofia/photo_2022-06-17_18-20-22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0007Sofia/photo_2022-06-17_18-20-24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0007Sofia/photo_2022-06-17_18-20-25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0007Sofia/photo_2022-06-17_18-20-27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0007Sofia/photo_2022-06-17_18-20-28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0007Sofia/photo_2022-06-17_18-20-30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0007Sofia/photo_2022-06-17_18-20-32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0007Sofia/photo_2022-06-17_18-20-33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/0007Sofia/photo_2022-06-17_18-20-35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3003Si/photo (21 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3003Si/photo (23 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3003Si/photo (25 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3301Vikie/IMG_0271.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3301Vikie/MNR_2658.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3301Vikie/MNR_2664.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3301Vikie/MNR_2665.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3302Dominicana/MNR_2738.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3302Dominicana/MNR_2749.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3302Dominicana/MNR_2752.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3303Doli/MNR_2810.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3303Doli/MNR_2814.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3303Doli/MNR_2818.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3303Doli/MNR_2820.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3303Doli/MNR_2824.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3303Doli/MNR_2825.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3305Rosy/IMG_0277.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3305Rosy/IMG_0278.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3305Rosy/IMG_0279.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3305Rosy/IMG_0280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3307Valentine/IMG_0795_Facetune_06-02-2022-18-55-28.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3307Valentine/IMG_0802_Facetune_06-02-2022-18-56-43.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3307Valentine/IMG_0817_Facetune_06-02-2022-18-56-59.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/3307Valentine/IMG_0818_Facetune_06-02-2022-18-57-32.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7001Amore/photo (11 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7001Amore/photo (12 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7001Amore/photo (13 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7001Amore/photo (14 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7001Amore/photo (15 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7003Emerald/photo (38 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7003Emerald/photo (39 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7003Emerald/photo (40 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7004Pearl/DSC08224 копия.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7004Pearl/DSC08291 копия.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7004Pearl/DSC08301 копия.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7004Pearl/DSC08319 копия.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7004Pearl/photo (26 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7004Pearl/photo (27 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7004Pearl/photo (28 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7004Pearl/photo (29 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/7004Pearl/photo (30 of 50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/8009Night/DSC07304 копия.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/8009Night/DSC07313 копия.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/8009Night/DSC07326 копия.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/8009Night/DSC07357 копия.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/products/8009Night/DSC07398 копия.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/footer-logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -370,7 +166,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img/products" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -382,11 +178,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/public/img/products" />
       <recent name="$PROJECT_DIR$/database/seeders" />
       <recent name="$PROJECT_DIR$/public/img/products/3302Dominicana" />
       <recent name="$PROJECT_DIR$/public/img/products/3303Doli" />
-      <recent name="$PROJECT_DIR$/public/img/products/3307Valentine" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/img/products/3301-Vikie" />
@@ -421,7 +217,7 @@
       <workItem from="1655850484213" duration="6607000" />
       <workItem from="1655888042995" duration="62000" />
       <workItem from="1655918647311" duration="8000" />
-      <workItem from="1656018232490" duration="3856000" />
+      <workItem from="1656018232490" duration="4421000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1637246397807</created>
@@ -535,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655858525419</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix">
+      <created>1656170554073</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656170554073</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
