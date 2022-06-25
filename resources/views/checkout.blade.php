@@ -50,7 +50,7 @@
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
                                         <p>Прізвище<span>*</span></p>
-                                        <input name="lastname" type="email" required>
+                                        <input name="lastname" type="text" required>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
                                         <p>Номер будинку<span>*</span></p>
-                                        <input name="number" type="email" required>
+                                        <input name="number" type="text" required>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
                                         <p>Місто<span>*</span></p>
-                                        <input name="city" type="email" required>
+                                        <input name="city" type="text" required>
                                     </div>
                                 </div>
                             </div>
