@@ -3813,6 +3813,9 @@ ol {
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+    .header__logo {
+        padding-right: 40px;
+    }
     .product__item__pic {
         height: 260px;
     }
