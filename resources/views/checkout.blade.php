@@ -26,34 +26,64 @@
                     <div class="row">
                         <div class="col-lg-8 col-md-6">
                             <h6 class="checkout__title">Billing Details</h6>
-                            <div class="checkout__input">
-                                <p>Name<span>*</span></p>
-                                <input name="name" type="text" required>
-                            </div>
-                            <div class="checkout__input">
-                                <p>Address<span>*</span></p>
-                                <input name="address" type="text" required>
-                            </div>
-                            <div class="checkout__input">
-                                <p>Postcode / ZIP<span>*</span></p>
-                                <input name="zip" type="text" required>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Електронна адреса<span>*</span></p>
+                                        <input name="email" type="email" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Номер телефону<span>*</span></p>
+                                        <input name="phone" type="text" required>
+                                    </div>
+                                </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
-                                        <p>Phone<span>*</span></p>
-                                        <input name="phone" type="text" required>
+                                        <p>Ім'я<span>*</span></p>
+                                        <input name="name" type="text" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
-                                        <p>Email<span>*</span></p>
-                                        <input name="email" type="email" required>
+                                        <p>Прізвище<span>*</span></p>
+                                        <input name="lastname" type="email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Адреса - Вулиця<span>*</span></p>
+                                        <input name="street" type="text" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Номер будинку<span>*</span></p>
+                                        <input name="number" type="email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Поштовий індекс<span>*</span></p>
+                                        <input name="zipcode" type="text" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Місто<span>*</span></p>
+                                        <input name="city" type="email" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="checkout__input">
-                                <p>Order notes</p>
+                                <p>Коментарі до замовлення</p>
                                 <input name="notes" type="text" placeholder="Notes about your order, e.g. special notes for delivery.">
                             </div>
                         </div>
