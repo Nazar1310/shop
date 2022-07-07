@@ -1,17 +1,17 @@
 @extends('layouts.main')
-@section('title', 'Check Out - Liseys’')
-@section('meta_description', '')
+@section('title', 'Blagajna - Liseys’')
+@section('meta_description', 'Liseys’ - nova znamka spodnjega perila. Slovi po kakovosti, mehkobi in izvirnih ročnih detajlih, ki poskrbijo za unikaten videz. Vsak kos je ustvarjen z ljubeznijo, nežnostjo in namenom poudarka vaše ženstvenosti')
 @section('content')
     <section class="breadcrumb-option">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb__text">
-                        <h4>Check Out</h4>
+                        <h4>Blagajna</h4>
                         <div class="breadcrumb__links">
                             <a href="{{route('index')}}">Domov</a>
                             <a href="{{route('products')}}">Izdelki</a>
-                            <span>Check Out</span>
+                            <span>Blagajna</span>
                         </div>
                     </div>
                 </div>
@@ -30,13 +30,13 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
-                                        <p>Електронна адреса<span>*</span></p>
+                                        <p>E-poštni naslov<span>*</span></p>
                                         <input name="email" type="email" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
-                                        <p>Номер телефону<span>*</span></p>
+                                        <p>Telefon<span>*</span></p>
                                         <input name="phone" type="text" required>
                                     </div>
                                 </div>
@@ -44,13 +44,13 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
-                                        <p>Ім'я<span>*</span></p>
+                                        <p>Ime<span>*</span></p>
                                         <input name="name" type="text" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
-                                        <p>Прізвище<span>*</span></p>
+                                        <p>Priimek<span>*</span></p>
                                         <input name="lastname" type="text" required>
                                     </div>
                                 </div>
@@ -58,13 +58,13 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
-                                        <p>Адреса - Вулиця<span>*</span></p>
+                                        <p>Naslov - ulica<span>*</span></p>
                                         <input name="street" type="text" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
-                                        <p>Номер будинку<span>*</span></p>
+                                        <p>Hišna številka<span>*</span></p>
                                         <input name="number" type="text" required>
                                     </div>
                                 </div>
@@ -72,19 +72,19 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
-                                        <p>Поштовий індекс<span>*</span></p>
+                                        <p>Poštna številka<span>*</span></p>
                                         <input name="zipcode" type="text" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
-                                        <p>Місто<span>*</span></p>
+                                        <p>Mesto<span>*</span></p>
                                         <input name="city" type="text" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="checkout__input">
-                                <p>Коментарі до замовлення</p>
+                                <p>Opombe naročila</p>
                                 <input name="notes" type="text" placeholder="Notes about your order, e.g. special notes for delivery.">
                             </div>
                         </div>

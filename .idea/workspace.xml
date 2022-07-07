@@ -2,37 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6ac4ae8-2d82-4084-91a3-2de08f74599a" name="Default Changelist" comment="fix">
-      <change afterPath="$PROJECT_DIR$/public/img/icon/arrow-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/icon/arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/size.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/contact-success.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/size-modal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/newsletter-success.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/about/about-us.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/about/about-us.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/about/testimonial-author.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/about/testimonial-pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/checkout-success.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/checkout-success.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/checkout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/checkout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact-success.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact-success.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/banner.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/banner.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/pagination.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/product-item.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/product-item.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/products-filter.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/search.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/shopping-cart-modal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/shopping-cart-modal.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/newsletter-success.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/newsletter-success.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/shopping-cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shopping-cart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +226,7 @@
       <workItem from="1655918647311" duration="8000" />
       <workItem from="1656018232490" duration="6280000" />
       <workItem from="1657046343712" duration="16273000" />
-      <workItem from="1657200610512" duration="1502000" />
+      <workItem from="1657200610512" duration="2415000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1637246397807</created>
@@ -400,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656189337818</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="fix">
+      <created>1657229857966</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1657229857966</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

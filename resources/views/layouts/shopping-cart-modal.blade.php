@@ -5,13 +5,13 @@
             <button class="button-close-modal js-close-modal">X</button>
         </div>
         <div class="modal__content">
-            <p>You have successfully added this item to your cart</p>
+            <p>Ta artikel ste uspešno dodali v košarico</p>
             <div>
                 <div class="continue__btn">
-                    <a class="js-close-modal">Continue Shopping</a>
+                    <a class="js-close-modal">Nadaljujte z nakupovanjem</a>
                 </div>
                 <div class="continue__btn update__btn">
-                    <a href="{{route('shopping-cart')}}">Go to cart</a>
+                    <a href="{{route('shopping-cart')}}">Nakupovalna košarica</a>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('title', 'Domov - Liseys’')
-@section('meta_description', '')
+@section('meta_description', 'Liseys’ - nova znamka spodnjega perila. Slovi po kakovosti, mehkobi in izvirnih ročnih detajlih, ki poskrbijo za unikaten videz. Vsak kos je ustvarjen z ljubeznijo, nežnostjo in namenom poudarka vaše ženstvenosti')
 @section('content')
     <section class="hero">
         <div class="hero__slider owl-carousel">
@@ -89,19 +89,19 @@
                             <div class="categories__deal__countdown__timer" id="countdown">
                                 <div class="cd-item">
                                     <span>3</span>
-                                    <p>Days</p>
+                                    <p>dni</p>
                                 </div>
                                 <div class="cd-item">
                                     <span>1</span>
-                                    <p>Hours</p>
+                                    <p>ur</p>
                                 </div>
                                 <div class="cd-item">
                                     <span>50</span>
-                                    <p>Minutes</p>
+                                    <p>minut</p>
                                 </div>
                                 <div class="cd-item">
                                     <span>18</span>
-                                    <p>Seconds</p>
+                                    <p>sekund</p>
                                 </div>
                             </div>
                             <a href="{{route('product',$product->id)}}" class="primary-btn">kupi zdaj</a>

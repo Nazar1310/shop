@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('title', 'Nakupovalna košarica - Liseys’')
-@section('meta_description', '')
+@section('meta_description', 'Liseys’ - nova znamka spodnjega perila. Slovi po kakovosti, mehkobi in izvirnih ročnih detajlih, ki poskrbijo za unikaten videz. Vsak kos je ustvarjen z ljubeznijo, nežnostjo in namenom poudarka vaše ženstvenosti')
 @section('content')
     <section class="breadcrumb-option">
         <div class="container">
@@ -61,7 +61,7 @@
                 const item = cart[key];
                 total += item.product.price * parseInt(item.count);
                 count ++;
-                const href = `<a href="/products/product/${item.product.id}">select</a>`;
+                const href = `<a href="/products/product/${item.product.id}">izberite</a>`;
                 $('#product-list').append(`<tr>
                                 <td class="product__cart__item">
                                     <a href="/products/product/${item.product.id}">
@@ -72,12 +72,12 @@
                                 </td>
                                 <td class="product__cart__item">
                                     <div class="product__cart__item__text">
-                                        <span>price: € ${item.product.price}</span><br/>
-                                        <span>color: ${item.color?item.color:href}</span><br/>
-                                        <span>count: ${item.count}</span><br/>
-                                        <span>bottom: ${item.size.bottom?item.size.bottom:href}</span><br/>
-                                        <span>bra: ${item.size.bra?item.size.bra:href}</span><br/>
-                                        <span>cup: ${item.size.cup?item.size.cup:href}</span>
+                                        <span>Cena: € ${item.product.price}</span><br/>
+                                        <span>Barva: ${item.color?item.color:href}</span><br/>
+                                        <span>štetje: ${item.count}</span><br/>
+                                        <span>Hlačke: ${item.size.bottom?item.size.bottom:href}</span><br/>
+                                        <span>Modrček: ${item.size.bra?item.size.bra:href}</span><br/>
+                                        <span>Skodelica: ${item.size.cup?item.size.cup:href}</span>
                                     </div>
                                 </td>
                                 <td class="cart__price">€ ${item.product.price * parseInt(item.count)}</td>

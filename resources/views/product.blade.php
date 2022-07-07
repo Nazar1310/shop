@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('title', $product->name.' - Liseys’')
-@section('meta_description', '')
+@section('meta_description', 'Liseys’ - nova znamka spodnjega perila. Slovi po kakovosti, mehkobi in izvirnih ročnih detajlih, ki poskrbijo za unikaten videz. Vsak kos je ustvarjen z ljubeznijo, nežnostjo in namenom poudarka vaše ženstvenosti')
 @section('content')
     <section class="shop-details">
         <div class="product__details__pic">
@@ -54,7 +54,7 @@
                                     <label class="js-show-modal" data-modal="modal-3" style="color: #111111 !important;">tabela velikosti</label>
                                 </div>
                                 <div class="product__details__option__size bottom">
-                                    <span>Bottom:</span>
+                                    <span>Hlačke:</span>
                                     @foreach(explode(',',$product->size_bottom) as $size)
                                         <label for="{{$size}}">{{$size}}
                                             <input class="selectSizeBottom" type="radio" value="{{$size}}" id="{{$size}}">
@@ -62,7 +62,7 @@
                                     @endforeach
                                 </div>
                                 <div class="product__details__option__size bra">
-                                    <span>Bra:</span>
+                                    <span>Modrček:</span>
                                     @foreach(explode(',',$product->size_bra) as $size)
                                         <label for="{{$size}}">{{$size}}
                                             <input class="selectSizeBra" type="radio" value="{{$size}}" id="{{$size}}">
@@ -70,7 +70,7 @@
                                     @endforeach
                                 </div>
                                 <div class="product__details__option__size cup">
-                                    <span>Cup:</span>
+                                    <span>Skodelica:</span>
                                     @foreach(explode(',',$product->size_cup) as $size)
                                         <label for="{{$size}}">{{$size}}
                                             <input class="selectSizeCup" type="radio" value="{{$size}}" id="{{$size}}">
@@ -78,7 +78,7 @@
                                     @endforeach
                                 </div>
                                 <div class="product__details__option__color">
-                                    <span>Color:</span>
+                                    <span>Barva:</span>
                                     @foreach(explode(',',$product->color) as $key=>$color)
                                         <label class="{{$color}}" for="sp-{{$key}}">
                                             <input class="selectColor" type="radio" value="{{$color}}" id="sp-{{$key}}">
@@ -88,7 +88,7 @@
                             </div>
                             <div class="product__details__cart__option">
                                 <input class="selectCount quantity-input" type="number" value="1" />
-                                <a class="primary-btn js-show-modal" id="add-to-cart" data-modal="modal-2">add to cart</a>
+                                <a class="primary-btn js-show-modal" id="add-to-cart" data-modal="modal-2">dodaj v košarico</a>
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                             <ul class="nav nav-tabs" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link active" data-toggle="tab" href="#tabs-100"
-                                       role="tab">Description</a>
+                                       role="tab">Opis</a>
                                 </li>
                             </ul>
                             <div class="tab-content">
@@ -120,7 +120,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 class="related-title">Related Product</h3>
+                    <h3 class="related-title">Podobni izdelek</h3>
                 </div>
             </div>
             <div class="row">

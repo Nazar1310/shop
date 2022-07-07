@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('title', 'Kontakt - Liseys’')
-@section('meta_description', '')
+@section('meta_description', 'Liseys’ - nova znamka spodnjega perila. Slovi po kakovosti, mehkobi in izvirnih ročnih detajlih, ki poskrbijo za unikaten videz. Vsak kos je ustvarjen z ljubeznijo, nežnostjo in namenom poudarka vaše ženstvenosti')
 @section('content')
     <section class="breadcrumb-option">
         <div class="container">
@@ -47,7 +47,7 @@
                                     <input type="email" placeholder="Email" name="email" required>
                                 </div>
                                 <div class="col-lg-12">
-                                    <textarea placeholder="Message" name="message" required></textarea>
+                                    <textarea placeholder="Sporočilo" name="message" required></textarea>
                                     <button type="submit" class="site-btn">Pošlji sporočilo</button>
                                 </div>
                             </div>

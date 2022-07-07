@@ -14,7 +14,7 @@
     <meta property="og:title" content="@yield('title')">
     @section('metaDublinCore')
         <meta name="DC.Title" content="@yield('title')">
-        <meta name="DC.Creator" content="SNB-Team">
+        <meta name="DC.Creator" content="Liseys">
         <meta name="DC.Subject" content="@yield('title')">
         <meta name="DC.Description" content="@yield('meta_description')">
         <meta name="DC.Publisher" content="{{config('app.name')}}">
