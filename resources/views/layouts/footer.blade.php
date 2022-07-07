@@ -6,39 +6,35 @@
                     <div class="footer__logo">
                         <a href="{{route('index')}}"><img src="/img/logo.png" alt=""></a>
                     </div>
-                    <p>The customer is at the heart of our unique business model, which includes design.</p>
-                    <a href="#"><img src="/img/payment.png" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
                 <div class="footer__widget">
-                    <h6>Shopping</h6>
                     <ul>
-                        <li><a href="#">Clothing Store</a></li>
-                        <li><a href="#">Trending Shoes</a></li>
-                        <li><a href="#">Accessories</a></li>
-                        <li><a href="#">Sale</a></li>
+                        <li><a href="{{route('shopping-cart')}}">Nakupovalna košarica</a></li>
+                        <li><a href="{{route('products')}}">Izdelki</a></li>
+                        <li><a href="{{route('contact')}}">Kontaktiraj nas</a></li>
+                        <li><a href="{{route('about')}}">O nas</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6">
                 <div class="footer__widget">
-                    <h6>Shopping</h6>
                     <ul>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Payment Methods</a></li>
-                        <li><a href="#">Delivary</a></li>
-                        <li><a href="#">Return & Exchanges</a></li>
+                        <li><a href="#">Reklamacija</a></li>
+                        <li><a href="#">Dostava</a></li>
+                        <li><a href="#">Politika zasebnosti in piškoti</a></li>
+                        <li><a href="#">Splošni pogoji poslovanja</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
                 <div class="footer__widget">
-                    <h6>NewLetter</h6>
                     <div class="footer__newslatter">
-                        <p>Be the first to know about new arrivals, look books, sales & promos!</p>
-                        <form action="#">
-                            <input type="text" placeholder="Your email">
+                        <p>Bodi prvi obveščeni o novih izdelkih, ugodnostih ter promocijah.</p>
+                        <form method="POST" action="{{route('newsletter')}}">
+                            @csrf
+                            <input type="email" name="email" placeholder="Your email" required>
                             <button type="submit"><span class="icon_mail_alt"></span></button>
                         </form>
                     </div>
@@ -48,15 +44,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="footer__copyright__text">
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    <p>Copyright ©
-                        <script>
-                            document.write(new Date().getFullYear());
-                        </script>2020
-                        All rights reserved | This template is made with <i class="fa fa-heart-o"
-                                                                            aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                    </p>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <p>Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved</p>
                 </div>
             </div>
         </div>

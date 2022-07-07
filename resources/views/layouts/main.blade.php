@@ -36,15 +36,15 @@
 <div class="offcanvas-menu-wrapper">
     <div class="offcanvas__nav__option">
         <a href="{{route('shopping-cart')}}"><img src="/img/icon/cart.png" alt=""> <span class="countInCart">0</span></a>
-        <a href="{{route('shopping-cart')}}"><div class="price priceInCart">$0.00</div></a>
+        <a href="{{route('shopping-cart')}}"><div class="price priceInCart">€0.00</div></a>
     </div>
     <div id="mobile-menu-wrap"></div>
 </div>
 @include('layouts.header')
 @yield('content')
 @include('layouts.footer')
-@include('layouts.search')
 @include('layouts.shopping-cart-modal')
+@include('layouts.size-modal')
 <script src="/js/jquery-3.3.1.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/jquery.countdown.min.js"></script>

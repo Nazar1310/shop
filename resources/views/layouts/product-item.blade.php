@@ -8,8 +8,8 @@
     </a>
     <div class="product__item__text">
         <h6>{{$product->name}}</h6>
-        <a href="{{route('product',$product)}}" class="add-cart">View product</a>
-        <h5>${{$product->price}}</h5>
+        <a href="{{route('product',$product)}}" class="add-cart">ogled izdelka</a>
+        <h5>€{{$product->price}}</h5>
         <div class="product__color__select">
             @foreach(explode(',',$product->color) as $key=>$color)
                 <label class="{{$color}}" for="pc-{{$key}}">

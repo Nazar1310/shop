@@ -1647,8 +1647,8 @@ ol {
 }
 
 .product__details__option__size {
-	display: inline-block;
-	margin-right: 50px;
+    display: block;
+    margin-bottom: 25px;
 }
 
 .product__details__option__size span {
@@ -1705,9 +1705,7 @@ ol {
 	display: inline-block;
 	cursor: pointer;
 }
-.product__details__option__color label.active {
-    border: #e53637 solid 2px;
-}
+
 .product__item__text .product__color__select label.beige, .product__details__option__color label.beige {
 	background: beige; /*beige*/}
 .product__item__text .product__color__select label.powder, .product__details__option__color label.powder {
@@ -1747,7 +1745,29 @@ ol {
 	content: "";
 	border-radius: 50%;
 }
-
+.product__details__option__color label.active:after {
+    border: 2px solid #e53637;
+}
+.prev {
+    background-image: url("../img/icon/arrow-left.svg");
+    background-size: cover;
+    position: absolute;
+    left: 16px;
+    top: calc(50% - 24px);
+    width: 48px;
+    height: 48px;
+    z-index: 1;
+}
+.next {
+    background-image: url("../img/icon/arrow-right.svg");
+    background-size: cover;
+    position: absolute;
+    right: 16px;
+    top: calc(50% - 24px);
+    width: 48px;
+    height: 48px;
+    z-index: 1;
+}
 .product__details__option__color label input {
 	position: absolute;
 	visibility: hidden;
@@ -3749,7 +3769,6 @@ ol {
 	}
 	.product__details__option__size {
 		display: block;
-		margin-right: 0;
 		margin-bottom: 25px;
 	}
 	.product__details__last__option h5:before {
@@ -3907,6 +3926,12 @@ ol {
     margin-bottom: 16px;
     cursor: pointer;
 }
+.size-modal-container {
+    text-align: center;
+}
+.size-modal-container img{
+    max-width: 350px;
+}
 @media only screen and (max-width: 479px) {
     .modal__content p{
         font-size: 20px;
@@ -3917,6 +3942,9 @@ ol {
     .modal__content .continue__btn{
         text-align: center;
         margin-bottom: 16px;
+    }
+    .size-modal-container img{
+        max-width: 100%;
     }
 }
 .button-close-modal {
@@ -3963,3 +3991,4 @@ ol {
 .checkout-btn {
     display: none;
 }
+

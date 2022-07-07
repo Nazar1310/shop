@@ -1,17 +1,17 @@
 @extends('layouts.main')
-@section('title', 'shopping-cart_title')
-@section('meta_description', 'contact_description')
+@section('title', 'Nakupovalna košarica - Liseys’')
+@section('meta_description', '')
 @section('content')
     <section class="breadcrumb-option">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb__text">
-                        <h4>Shopping Cart</h4>
+                        <h4>Nakupovalna košarica</h4>
                         <div class="breadcrumb__links">
-                            <a href="{{route('index')}}">Home</a>
-                            <a href="{{route('products')}}">Products</a>
-                            <span>Shopping Cart</span>
+                            <a href="{{route('index')}}">Domov</a>
+                            <a href="{{route('products')}}">Izdelki</a>
+                            <span>Nakupovalna košarica</span>
                         </div>
                     </div>
                 </div>
@@ -26,9 +26,9 @@
                         <table>
                             <thead>
                             <tr>
-                                <th>Product</th>
-                                <th>Details</th>
-                                <th>Total</th>
+                                <th>Izdelek</th>
+                                <th>Podrobnosti</th>
+                                <th>Skupaj</th>
                                 <th></th>
                             </tr>
                             </thead>
@@ -38,11 +38,11 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="cart__total">
-                        <h6>Cart total</h6>
+                        <h6>Košarica skupaj</h6>
                         <ul>
-                            <li>Total <span id="total"></span></li>
+                            <li>Skupaj <span id="total"></span></li>
                         </ul>
-                        <a href="{{route('checkout')}}" class="checkout-btn primary-btn">Proceed to checkout</a>
+                        <a href="{{route('checkout')}}" class="checkout-btn primary-btn">Nadaljuj z plačilom</a>
                     </div>
                 </div>
             </div>
@@ -72,14 +72,15 @@
                                 </td>
                                 <td class="product__cart__item">
                                     <div class="product__cart__item__text">
-                                        <h6>${item.product.name}</h6>
-                                        <h5>$ ${item.product.price}</h5>
-                                        <span>size: ${item.size?item.size:href}</span><br/>
+                                        <span>price: € ${item.product.price}</span><br/>
                                         <span>color: ${item.color?item.color:href}</span><br/>
-                                        <span>count: ${item.count}</span>
+                                        <span>count: ${item.count}</span><br/>
+                                        <span>bottom: ${item.size.bottom?item.size.bottom:href}</span><br/>
+                                        <span>bra: ${item.size.bra?item.size.bra:href}</span><br/>
+                                        <span>cup: ${item.size.cup?item.size.cup:href}</span>
                                     </div>
                                 </td>
-                                <td class="cart__price">$ ${item.product.price * parseInt(item.count)}</td>
+                                <td class="cart__price">€ ${item.product.price * parseInt(item.count)}</td>
                                 <td class="cart__close"><i class="fa fa-close" onclick="remove(${item.product.id})"></i></td>
                             </tr>`)
             }
@@ -89,8 +90,8 @@
                 $('.checkout-btn').hide();
             }
             $('.countInCart').html(count);
-            $('.priceInCart').html('$'+total);
-            $('#total').html('$ '+total);
+            $('.priceInCart').html('€'+total);
+            $('#total').html('€ '+total);
         }
         setCart();
         function remove(id) {

@@ -1,16 +1,16 @@
 @extends('layouts.main')
-@section('title', 'products_title')
-@section('meta_description', 'products_description')
+@section('title', 'Izdelki - Liseys’')
+@section('meta_description', '')
 @section('content')
     <section class="breadcrumb-option">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb__text">
-                        <h4>Products</h4>
+                        <h4>Izdelki</h4>
                         <div class="breadcrumb__links">
-                            <a href="{{route('index')}}">Home</a>
-                            <span>Products</span>
+                            <a href="{{route('index')}}">Domov</a>
+                            <span>Izdelki</span>
                         </div>
                     </div>
                 </div>

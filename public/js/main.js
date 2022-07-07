@@ -60,8 +60,16 @@
     /*-------------------
 		Radio Btn
 	--------------------- */
-    $(".shop__sidebar__size label, .product__details__option__size label").on('click', function () {
-        $(".shop__sidebar__size label, .product__details__option__size label").removeClass('active');
+    $(".shop__sidebar__size label, .product__details__option__size.bottom label").on('click', function () {
+        $(".shop__sidebar__size label, .product__details__option__size.bottom label").removeClass('active');
+        $(this).addClass('active');
+    });
+    $(".product__details__option__size.bra label").on('click', function () {
+        $(".product__details__option__size.bra label").removeClass('active');
+        $(this).addClass('active');
+    });
+    $(".product__details__option__size.cup label").on('click', function () {
+        $(".product__details__option__size.cup label").removeClass('active');
         $(this).addClass('active');
     });
     $(".product__details__option__color label").on('click', function () {
@@ -144,5 +152,5 @@ function setInfoForCart(cart) {
         priceInCart += item.product.price * parseInt(item.count);
     }
     $('.countInCart').html(countInCart);
-    $('.priceInCart').html('$'+priceInCart+'.00');
+    $('.priceInCart').html('€'+priceInCart+'.00');
 }

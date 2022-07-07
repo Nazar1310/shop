@@ -2,12 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6ac4ae8-2d82-4084-91a3-2de08f74599a" name="Default Changelist" comment="fix">
-      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/icon/arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/icon/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/contact-success.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/size-modal.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/newsletter-success.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/footer-logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/about/about-us.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/about/about-us.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/about/testimonial-author.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/about/testimonial-pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/checkout-success.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/checkout-success.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/checkout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/checkout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/banner.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/banner.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/pagination.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/product-item.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/product-item.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/products-filter.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/search.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/shopping-cart-modal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/shopping-cart-modal.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/shopping-cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shopping-cart.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +191,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -178,18 +203,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/img" />
-      <recent name="$PROJECT_DIR$/public/img/products" />
-      <recent name="$PROJECT_DIR$/database/seeders" />
-      <recent name="$PROJECT_DIR$/public/img/products/3302Dominicana" />
-      <recent name="$PROJECT_DIR$/public/img/products/3303Doli" />
+      <recent name="$PROJECT_DIR$/resources/views/layouts" />
+      <recent name="$PROJECT_DIR$/public/img/about" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img/icon" />
       <recent name="$PROJECT_DIR$/public/img/products/3301-Vikie" />
       <recent name="$PROJECT_DIR$/public/img/products/3302-Dominicana" />
       <recent name="$PROJECT_DIR$/public/img/products/3303-Doli" />
       <recent name="$PROJECT_DIR$/public/img/products/3305-Rosy" />
-      <recent name="$PROJECT_DIR$/public/img/products/8009-Night" />
     </key>
   </component>
   <component name="RunManager">
@@ -217,7 +242,9 @@
       <workItem from="1655850484213" duration="6607000" />
       <workItem from="1655888042995" duration="62000" />
       <workItem from="1655918647311" duration="8000" />
-      <workItem from="1656018232490" duration="4421000" />
+      <workItem from="1656018232490" duration="6280000" />
+      <workItem from="1657046343712" duration="16273000" />
+      <workItem from="1657200610512" duration="1502000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1637246397807</created>
@@ -338,7 +365,42 @@
       <option name="project" value="LOCAL" />
       <updated>1656170554073</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fix">
+      <created>1656171760214</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1656171760214</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix">
+      <created>1656172443654</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1656172443654</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix">
+      <created>1656187979803</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1656187979803</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fix">
+      <created>1656189138307</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1656189138307</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix">
+      <created>1656189337818</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1656189337818</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,6 +1,6 @@
 @extends('layouts.main')
-@section('title', 'index_title')
-@section('meta_description', 'index_description')
+@section('title', 'Domov - Liseys’')
+@section('meta_description', '')
 @section('content')
     <section class="hero">
         <div class="hero__slider owl-carousel">
@@ -9,11 +9,9 @@
                     <div class="row">
                         <div class="col-xl-5 col-lg-7 col-md-8">
                             <div class="hero__text">
-                                <h6>Summer Collection</h6>
-                                <h2>Fall - Winter Collections 2030</h2>
-                                <p>A specialist label creating luxury essentials. Ethically crafted with an unwavering
-                                    commitment to exceptional quality.</p>
-                                <a href="{{route('products')}}" class="primary-btn">Shop now <span class="arrow_right"></span></a>
+                                <h6>Liseys’</h6>
+                                <h2>Nova kolekcija Spodnjega Perila</h2>
+                                <a href="{{route('products')}}" class="primary-btn">Nakupuj zdele <span class="arrow_right"></span></a>
                                 <div class="hero__social">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -30,11 +28,9 @@
                     <div class="row">
                         <div class="col-xl-5 col-lg-7 col-md-8">
                             <div class="hero__text">
-                                <h6>Summer Collection</h6>
-                                <h2>Fall - Winter Collections 2030</h2>
-                                <p>A specialist label creating luxury essentials. Ethically crafted with an unwavering
-                                    commitment to exceptional quality.</p>
-                                <a href="{{route('products')}}" class="primary-btn">Shop now <span class="arrow_right"></span></a>
+                                <h6>Liseys’</h6>
+                                <h2>Nova kolekcija Spodnjega Perila</h2>
+                                <a href="{{route('products')}}" class="primary-btn">Nakupuj zdele <span class="arrow_right"></span></a>
                                 <div class="hero__social">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -54,9 +50,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="filter__controls">
-                        <li class="active" data-filter="*">Best Sellers</li>
-{{--                        <li data-filter=".products">Products</li>--}}
-{{--                        <li data-filter=".accessories">Accessories</li>--}}
+                        <li class="active" data-filter="*">Najbolj prodajane izdelki</li>
                     </ul>
                 </div>
             </div>
@@ -68,7 +62,7 @@
                 @endforeach
             </div>
             <div class="text-center">
-                <a href="{{route('products')}}" class="primary-btn">See more products <span class="arrow_right"></span></a>
+                <a href="{{route('products')}}" class="primary-btn">oglej več izdelkov <span class="arrow_right"></span></a>
             </div>
         </div>
     </section>
@@ -77,22 +71,20 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
-                        <div class="categories__text">
-                            <h2>Clothings Hot <br /> <span>Shoe Collection</span> <br /> Accessories</h2>
-                        </div>
+                        <div class="categories__text"></div>
                     </div>
                     <div class="col-lg-4">
                         <div class="categories__hot__deal">
                             <img src="/img/products/{{$product->media_folder}}/{{$product->preview}}" alt="">
                             <div class="hot__deal__sticker">
-                                <span>Sale Of</span>
-                                <h5>${{$product->price}}</h5>
+                                <span>razprodaja</span>
+                                <h5>€{{$product->price}}</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 offset-lg-1">
                         <div class="categories__deal__countdown">
-                            <span>Deal Of The Week</span>
+                            <span>Ugodni nakup</span>
                             <h2>{{$product->name}}</h2>
                             <div class="categories__deal__countdown__timer" id="countdown">
                                 <div class="cd-item">
@@ -112,7 +104,7 @@
                                     <p>Seconds</p>
                                 </div>
                             </div>
-                            <a href="{{route('product',$product->id)}}" class="primary-btn">Buy now</a>
+                            <a href="{{route('product',$product->id)}}" class="primary-btn">kupi zdaj</a>
                         </div>
                     </div>
                 </div>
@@ -122,7 +114,7 @@
     <section class="instagram spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-12">
                     <div class="instagram__pic">
                         <div class="instagram__pic__item set-bg" data-setbg="/img/instagram/instagram-1.jpg"></div>
                         <div class="instagram__pic__item set-bg" data-setbg="/img/instagram/instagram-2.jpg"></div>
@@ -130,14 +122,6 @@
                         <div class="instagram__pic__item set-bg" data-setbg="/img/instagram/instagram-4.jpg"></div>
                         <div class="instagram__pic__item set-bg" data-setbg="/img/instagram/instagram-5.jpg"></div>
                         <div class="instagram__pic__item set-bg" data-setbg="/img/instagram/instagram-6.jpg"></div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="instagram__text">
-                        <h2>Instagram</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
-                        <h3>#Male_Fashion</h3>
                     </div>
                 </div>
             </div>

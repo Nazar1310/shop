@@ -1,16 +1,16 @@
 @extends('layouts.main')
-@section('title', 'contact_title')
-@section('meta_description', 'contact_description')
+@section('title', 'Kontakt - Liseys’')
+@section('meta_description', '')
 @section('content')
     <section class="breadcrumb-option">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb__text">
-                        <h4>Contacts</h4>
+                        <h4>Kontakt</h4>
                         <div class="breadcrumb__links">
-                            <a href="{{route('index')}}">Home</a>
-                            <span>Contacts</span>
+                            <a href="{{route('index')}}">Domov</a>
+                            <span>Kontakt</span>
                         </div>
                     </div>
                 </div>
@@ -23,36 +23,32 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="contact__text">
                         <div class="section-title">
-                            <span>Information</span>
-                            <h2>Contact Us</h2>
-                            <p>As you might expect of a company that began as a high-end interiors contractor, we pay
-                                strict attention.</p>
+                            <span>Informacije</span>
+                            <h2>Kontaktiraj nas</h2>
+                            <p>V primeru kakršnih koli vprašanj nas lahko kontaktirate</p>
                         </div>
                         <ul>
                             <li>
-                                <h4>America</h4>
-                                <p>195 E Parker Square Dr, Parker, CO 801 <br />+43 982-314-0958</p>
-                            </li>
-                            <li>
-                                <h4>France</h4>
-                                <p>109 Avenue Léon, 63 Clermont-Ferrand <br />+12 345-423-9893</p>
+                                <h4>Slovenija</h4>
+                                <p>Dunajska cesta 129, 1000 Ljubljana <br />info@liseys.si</p>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="contact__form">
-                        <form action="#">
+                        <form method="POST">
+                            @csrf
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <input type="text" placeholder="Name">
+                                    <input type="text" placeholder="Name" name="name" required>
                                 </div>
                                 <div class="col-lg-6">
-                                    <input type="text" placeholder="Email">
+                                    <input type="email" placeholder="Email" name="email" required>
                                 </div>
                                 <div class="col-lg-12">
-                                    <textarea placeholder="Message"></textarea>
-                                    <button type="submit" class="site-btn">Send Message</button>
+                                    <textarea placeholder="Message" name="message" required></textarea>
+                                    <button type="submit" class="site-btn">Pošlji sporočilo</button>
                                 </div>
                             </div>
                         </form>
