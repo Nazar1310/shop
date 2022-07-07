@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="/css/elegant-icons.css" type="text/css">
     <link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css?v=123" type="text/css">
 </head>
 <body>
 <div class="offcanvas-menu-overlay"></div>
@@ -50,7 +50,7 @@
 <script src="/js/jquery.countdown.min.js"></script>
 <script src="/js/jquery.slicknav.js"></script>
 <script src="/js/owl.carousel.min.js"></script>
-<script src="/js/main.js"></script>
+<script src="/js/main.js?v=123"></script>
 @if(View::hasSection('javascript'))
     @yield('javascript')
 @endif
