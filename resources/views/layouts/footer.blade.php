@@ -8,7 +8,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+            <div class="col-lg-2 col-md-3 col-sm-6">
                 <div class="footer__widget">
                     <ul>
                         <li><a href="{{route('shopping-cart')}}">Nakupovalna košarica</a></li>
@@ -18,7 +18,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="col-lg-3 col-md-3 col-sm-6">
                 <div class="footer__widget">
                     <ul>
                         <li><a href="#">Reklamacija</a></li>

@@ -30,7 +30,7 @@
                         <ul>
                             <li>
                                 <h4>Slovenija</h4>
-                                <p>Dunajska cesta 129, 1000 Ljubljana <br />info@liseys.si</p>
+                                <p>LCG d.o.o. <br />Dunajska cesta 129, 1000 Ljubljana <br />info@liseys.si</p>
                             </li>
                         </ul>
                     </div>
