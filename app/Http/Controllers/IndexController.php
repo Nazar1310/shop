@@ -17,6 +17,18 @@ class IndexController extends Controller
     public function about() {
         return view('about');
     }
+    public function policy() {
+        return view('policy');
+    }
+    public function terms() {
+        return view('terms');
+    }
+    public function delivery() {
+        return view('delivery');
+    }
+    public function сomplaints() {
+        return view('сomplaints');
+    }
     public function contact() {
         return view('contact');
     }

@@ -21,10 +21,10 @@
             <div class="col-lg-3 col-md-3 col-sm-6">
                 <div class="footer__widget">
                     <ul>
-                        <li><a href="#">Reklamacija</a></li>
-                        <li><a href="#">Dostava</a></li>
-                        <li><a href="#">Politika zasebnosti in piškoti</a></li>
-                        <li><a href="#">Splošni pogoji poslovanja</a></li>
+                        <li><a href="{{route('сomplaints')}}">Reklamacija</a></li>
+                        <li><a href="{{route('delivery')}}">Dostava</a></li>
+                        <li><a href="{{route('policy')}}">Politika zasebnosti in piškoti</a></li>
+                        <li><a href="{{route('terms')}}">Splošni pogoji poslovanja</a></li>
                     </ul>
                 </div>
             </div>

@@ -25,6 +25,10 @@ Route::group(['prefix' => "$prefix"], function(){
     Route::get('/products/shopping-cart', 'App\Http\Controllers\IndexController@shoppingCart')->name('shopping-cart');
     Route::get('/products/product/{product}', 'App\Http\Controllers\IndexController@product')->name('product');
     Route::post('/newsletter', 'App\Http\Controllers\IndexController@newsletter')->name('newsletter');
+    Route::get('/terms', 'App\Http\Controllers\IndexController@terms')->name('terms');
+    Route::get('/policy', 'App\Http\Controllers\IndexController@policy')->name('policy');
+    Route::get('/delivery', 'App\Http\Controllers\IndexController@delivery')->name('delivery');
+    Route::get('/сomplaints', 'App\Http\Controllers\IndexController@сomplaints')->name('сomplaints');
     require __DIR__.'/auth.php';
 });
 
