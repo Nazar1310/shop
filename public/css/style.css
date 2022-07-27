@@ -4003,3 +4003,12 @@ ol {
 .second-page span{
     font-weight: bold;
 }
+.banner__item__text_v2{
+    padding-top: 120px;
+    justify-content: center;
+    display: flex;
+}
+.banner__item__text_v2 p{
+    font-size: 22px;
+    max-width: 350px;
+}
