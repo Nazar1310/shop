@@ -4012,3 +4012,9 @@ ol {
     font-size: 22px;
     max-width: 350px;
 }
+@media only screen and (max-width: 767px) {
+    .banner__item__text_v2 p{
+        max-width: 100%;
+        padding-bottom: 22px;
+    }
+}
