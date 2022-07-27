@@ -3991,4 +3991,15 @@ ol {
 .checkout-btn {
     display: none;
 }
-
+.second-page h1{
+    color: #111111;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.second-page li{
+    margin-left: 24px;
+}
+.second-page span{
+    font-weight: bold;
+}

@@ -2,12 +2,12 @@
 @section('title', 'Dostava - Liseys’')
 @section('meta_description', 'Liseys’ - nova znamka spodnjega perila. Slovi po kakovosti, mehkobi in izvirnih ročnih detajlih, ki poskrbijo za unikaten videz. Vsak kos je ustvarjen z ljubeznijo, nežnostjo in namenom poudarka vaše ženstvenosti')
 @section('content')
-    <section class="spad">
+    <section class="spad second-page">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="about__item">
-                        <h4>Dostava</h4>
+                        <h1>Dostava</h1>
                         <p>
                             Cena poštnine znaša 3,60 € (z DDV). Spletna trgovina Liseys’ (www.liseys.si) izvaja dostavo izključno na področju Slovenije. Dostava se izvaja v sodelovanju s podjetjema Pošta Slovenije in DPD.
                         </p>
@@ -27,5 +27,4 @@
             </div>
         </div>
     </section>
-
 @stop

@@ -2,12 +2,12 @@
 @section('title', 'Reklamacije - Liseys’')
 @section('meta_description', 'Liseys’ - nova znamka spodnjega perila. Slovi po kakovosti, mehkobi in izvirnih ročnih detajlih, ki poskrbijo za unikaten videz. Vsak kos je ustvarjen z ljubeznijo, nežnostjo in namenom poudarka vaše ženstvenosti')
 @section('content')
-    <section class="spad">
+    <section class="spad second-page">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="about__item">
-                        <h4>Reklamacije</h4>
+                        <h1>Reklamacije</h1>
                         <p>
                             Kupec (velja izključno samo za fizične osebe, ki pridobijo blago za namene izven svoje pridobitne dejavnosti) ima pravico, da brez navedbe razlogov v 14 dneh odstopi od te pogodbe. Odstopni rok poteče v 14 dneh od dneva prevzema blaga. Za uveljavitev pravice do odstopa mora kupec z nedvoumno izjavo obvestiti prodajalca o svoji odločitvi o odstopu od te pogodbe (npr. po elektronski pošti na naslov na e-naslov prodajalca: info@liseys.si). Ponudnik po elektronski pošti kupcu nato pošlje potrdilo o prejemu takšne odstopne izjave.                        </p>
                         <p>
